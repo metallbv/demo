@@ -1,16 +1,15 @@
-package com.example.demo.rest;
+package com.example.demo.controller;
 
-import com.example.demo.model.Route;
 import com.example.demo.repository.RoutesRepository;
+import com.example.demo.entity.dto.ReponseRouteDto;
+import com.example.demo.entity.dto.RouteDto;
 import com.example.demo.service.RouteService;
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

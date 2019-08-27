@@ -2,8 +2,8 @@ package com.example.demo.service;
 
 import com.example.demo.model.Route;
 import com.example.demo.repository.RoutesRepository;
-import com.example.demo.rest.ReponseRouteDto;
-import com.example.demo.rest.RouteDto;
+import com.example.demo.entity.dto.ReponseRouteDto;
+import com.example.demo.entity.dto.RouteDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.modelmapper.ModelMapper;
