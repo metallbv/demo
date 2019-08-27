@@ -1,0 +1,21 @@
+insert into ROUTE(ID, ROUTE_ID) values (1, 1);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(1,153),(1,150),(1,148),(1,106),(1,17),(1,20),(1,160),(1,140),(1,24);
+insert into ROUTE(ID, ROUTE_ID) values (2, 2);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(2,5),(2,142),(2,106),(2,11);
+insert into ROUTE(ID, ROUTE_ID) values (19, 19);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(19,153),(19,121),(19,114),(19,150),(19,5);
+insert into ROUTE(ID, ROUTE_ID) values (13, 13);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(13,153),(13,148),(13,169),(13,106),(13,11),(13,12);
+insert into ROUTE(ID, ROUTE_ID) values (14, 14);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(14,114),(14,150),(14,142),(14,12),(14,179),(14,174),(14,17);
+insert into ROUTE(ID, ROUTE_ID) values (6, 6);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(6,5),(6,138),(6,148),(6,12),(6,174),(6,118),(6,16),(6,19),(6,184);
+insert into ROUTE(ID, ROUTE_ID) values (7, 7);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(7,121),(7,114),(7,150),(7,5),(7,148),(7,169),(7,11);
+insert into ROUTE(ID, ROUTE_ID) values (8, 8);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(8,142),(8,138),(8,148),(8,169),(8,106),(8,11),(8,12);
+insert into ROUTE(ID, ROUTE_ID) values (18, 18);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(18,153),(18,114),(18,5),(18,138);
+insert into ROUTE(ID, ROUTE_ID) values (11, 11);
+insert into route_station_id_list(ROUTE_ID, STATION_ID_LIST) values(11,121),(11,114),(11,148),(11,169),(11,12),(11,16),(11,155);
+
