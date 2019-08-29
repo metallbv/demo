@@ -5,12 +5,14 @@ cd $(dirname $0)
 
 dev_build() {
   # Do what you need to package your app, e.g. mvn package
-  true
+  $ docker build -t goeuro .
+  #true
 }
 
 dev_run() {
   # Do what you need to run your app in the foreground
   # e.g. java -jar target/magic.jar $*
+  $ docker run -it --rm --name goeuro goeuro
   sleep 600
 }
 
